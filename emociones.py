@@ -67,7 +67,7 @@ while True:
             frame = cv2.putText(frame, race, (75, 180), font, 1, (0, 0, 0), 2)
 
     # Mostramos los fotogramas
-    cv2.imshow("Deteccion de Edad", frame)
+    cv2.imshow("Deteccion de Emociones", frame)
 
     # Leemos el teclado
     t = cv2.waitKey(5)
